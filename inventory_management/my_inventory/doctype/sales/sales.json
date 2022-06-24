@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2022-06-24 19:13:32.508991",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "datee",
+  "codee",
+  "namee",
+  "qty"
+ ],
+ "fields": [
+  {
+   "fieldname": "datee",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "codee",
+   "fieldtype": "Link",
+   "label": "Code",
+   "options": "Product",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "codee.namee",
+   "fieldname": "namee",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Product"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "Qty"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "group": "s",
+   "link_doctype": "Product",
+   "link_fieldname": "namee"
+  }
+ ],
+ "modified": "2022-06-25 00:49:12.246978",
+ "modified_by": "Administrator",
+ "module": "My Inventory",
+ "name": "Sales",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

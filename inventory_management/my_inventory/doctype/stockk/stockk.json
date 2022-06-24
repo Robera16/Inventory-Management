@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2022-06-24 23:37:16.924563",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "codee",
+  "namee",
+  "qty"
+ ],
+ "fields": [
+  {
+   "fieldname": "codee",
+   "fieldtype": "Link",
+   "label": "Code",
+   "options": "Product"
+  },
+  {
+   "fieldname": "namee",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Product"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "label": "Qty"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-25 00:49:39.338030",
+ "modified_by": "Administrator",
+ "module": "My Inventory",
+ "name": "Stockk",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
