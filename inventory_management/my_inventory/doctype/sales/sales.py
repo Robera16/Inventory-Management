@@ -7,5 +7,7 @@ import frappe
 from frappe import  _
 
 class Sales(Document):
-	pass
+	@frappe.whitelist()
+	def update_stockk(doctype, name):
+		print("hallo", doctype, name)
 

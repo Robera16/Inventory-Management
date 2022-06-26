@@ -3,7 +3,7 @@
 
 frappe.ui.form.on('Sales', {
 
-	// get_all: function(frm){
+	// before_save: function(frm){
 	// 	frappe.call({
 	// 		method: "update_stockk",
 	// 		args: {
