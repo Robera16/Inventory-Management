@@ -3,9 +3,6 @@
 
 # import frappe
 from frappe.model.document import Document
-import frappe 
-from frappe import  _
 
-class Sales(Document):
+class Purchase(Document):
 	pass
-

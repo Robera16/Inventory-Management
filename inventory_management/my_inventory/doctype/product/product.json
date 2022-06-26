@@ -61,12 +61,11 @@
   },
   {
    "group": "Sales",
-   "link_doctype": "Sales",
-   "link_fieldname": "namee",
-   "table_fieldname": "namee"
+   "link_doctype": "Purchase",
+   "link_fieldname": "codee"
   }
  ],
- "modified": "2022-06-25 00:50:09.039340",
+ "modified": "2022-06-26 10:11:56.767389",
  "modified_by": "Administrator",
  "module": "My Inventory",
  "name": "Product",

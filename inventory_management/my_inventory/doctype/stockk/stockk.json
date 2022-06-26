@@ -1,14 +1,13 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "hash",
+ "autoname": "field:codee",
  "creation": "2022-06-24 23:37:16.924563",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "codee",
-  "namee",
   "qty"
  ],
  "fields": [
@@ -16,13 +15,8 @@
    "fieldname": "codee",
    "fieldtype": "Link",
    "label": "Code",
-   "options": "Product"
-  },
-  {
-   "fieldname": "namee",
-   "fieldtype": "Link",
-   "label": "Name",
-   "options": "Product"
+   "options": "Product",
+   "unique": 1
   },
   {
    "fieldname": "qty",
@@ -32,11 +26,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-25 00:49:39.338030",
+ "modified": "2022-06-26 13:25:56.773904",
  "modified_by": "Administrator",
  "module": "My Inventory",
  "name": "Stockk",
- "naming_rule": "Random",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

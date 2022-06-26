@@ -1,8 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "hash",
- "creation": "2022-06-24 19:13:32.508991",
+ "creation": "2022-06-26 10:02:57.157663",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -31,11 +30,10 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-26 11:19:29.563338",
+ "modified": "2022-06-26 11:20:37.605502",
  "modified_by": "Administrator",
  "module": "My Inventory",
- "name": "Sales",
- "naming_rule": "Random",
+ "name": "Purchase",
  "owner": "Administrator",
  "permissions": [
   {
